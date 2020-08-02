@@ -24,6 +24,14 @@ html {
 *::after {
   box-sizing: inherit;
 }
+.active-page::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: #2196f3;
+  border-radius: 2px;
+}
 
 .link {
   text-decoration: none;
@@ -131,7 +139,7 @@ html {
   margin-right: 30px;
 }
 .navigation-list-item-email-tel:hover .svg-link-email,
-.navigation-list-item-email-tel:focus.svg-link-email {
+.navigation-list-item-email-tel:focus .svg-link-email {
   fill: #2196f3;
 }
 
@@ -279,6 +287,7 @@ html {
   display: flex;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 .example-list-item:not(:last-child) {
   margin-right: 30px;
@@ -291,9 +300,9 @@ html {
   background: rgba(47, 48, 58, 0.8);
   padding-top: 27px;
   padding-bottom: 27px;
-  min-width: 370px;
+  width: 370px;
+  bottom: 0;
 
-  top: 1428px;
   position: absolute;
 }
 .example-img {
