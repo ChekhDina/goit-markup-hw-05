@@ -107,7 +107,6 @@ html {
 .svg-link-email,
 .svg-link-tel {
   fill: #757575;
-  margin-right: 10px;
 }
 .header .container {
   align-items: center;
@@ -173,12 +172,13 @@ html {
   text-align: center;
   background-position: center;
   height: 600px;
-  width: 1600px;
+  max-width: 1600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   margin-top: 0;
   margin-bottom: 30px;
-  padding-top: 200px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -219,13 +219,17 @@ html {
   padding-bottom: 25px;
   padding-left: 100px;
 }
-
-.section {
-  width: 1200px;
+.section-feature {
   display: block;
-  margin: 0 auto;
   padding-top: 94px;
   padding-bottom: 47px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -264,17 +268,17 @@ html {
 /*EXAMPLE */
 .section-example {
   width: 1200px;
-  margin: 0 auto;
-  padding-top: 47px;
-  padding-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
 }
 
 .example {
-  align-items: center;
-  display: block;
-  margin: 0 auto;
+  padding-top: 47px;
+  padding-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .example-title {
   width: 1200px;
@@ -325,14 +329,18 @@ html {
   color: #ffffff;
 }
 /*OUR TEAM*/
+.section-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .our-team {
   width: 1200px;
-  display: block;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 94px;
-  padding-top: 94px;
 }
 .team-title {
   margin-top: 0;
@@ -431,14 +439,18 @@ html {
   color: #757575;
 }
 /*CUSTOMERS*/
-
+.customers {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .costomers-team {
   width: 1200px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 94px;
-  padding-top: 94px;
 }
 .customers-title {
   margin-top: 0;
@@ -618,7 +630,10 @@ html {
   margin: 0;
   padding: 0;
 }
-
+.portfolio-list-item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .portfolio-list-item {
   margin-right: 30px;
   margin-bottom: 30px;
