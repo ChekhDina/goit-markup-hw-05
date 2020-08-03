@@ -439,18 +439,20 @@ html {
   color: #757575;
 }
 /*CUSTOMERS*/
-.customers {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.costomers-team {
+.costomers {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+.costomers-team {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 .customers-title {
   margin-top: 0;
@@ -571,7 +573,7 @@ html {
 .header.basic-line {
   border-bottom: 1px solid #ececec;
 }
-.filter {
+.section-portfolio {
   width: 1200px;
   margin: 0 auto;
   padding-top: 93px;
